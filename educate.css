@@ -10,6 +10,8 @@ body{
   height: 100vh;
   font-family: 'Poppins', sans-serif;
   background-color: black;
+  
+  
 }
 footer{
   color: white;
@@ -19,12 +21,17 @@ footer{
 h2{
   color: white;
   text-align: center;
-  margin-left:20px;
+  margin: auto;
+  width: 900px;
 }
+
+
 li{
   color: white;
   font-size: 20px;
-  margin-left:20px;
+  margin-left:100px;
+  line-height:140%
+  
 }
 a{
   color: white;
@@ -38,7 +45,8 @@ ul{
 }
 p{
   color: white;
-  margin-left:20px;
+  margin: auto;
+  width: 800px;
 }
 .desc{
   list-style-type: circle;
