@@ -20,3 +20,49 @@ h1{
   color: white;
   text-align: center;
 }
+.bth{
+  display: block;
+  position: relative;
+  padding: 8px 40px;
+  color:white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  transition: 0.5s;
+  text-align: center;
+}
+.bth:visited{
+  color: white;
+}
+.bth:hover{
+  background-color: white;
+  color: black;
+}
+.outer {
+  position: relative;
+  display: table;
+  vertical-align: middle;
+  height: 50px;
+  width: 300px;
+  margin: 25px auto 0;
+  }
+
+.inner {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100&#37;;
+  }
+
+
+* html .inner {
+  top: 50%;
+  left: 0;
+  }
+
+* html .inner .mid {
+  position: relative;
+  top: -50%;
+  }
