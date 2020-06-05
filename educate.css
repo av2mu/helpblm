@@ -1,0 +1,44 @@
+.center{
+  display: block;
+  margin-left: auto;
+  margin: auto;
+  width: 100%;
+}
+body{
+  margin: 0;
+  padding:0;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+}
+footer{
+  color: white;
+  font-size: 13px;
+  text-align: center;
+}
+h2{
+  color: white;
+  text-align: center;
+}
+li{
+  color: white;
+  font-size: 20px;
+}
+a{
+  color: white;
+}
+a:visited{
+  color: #61c27c;
+}
+ul{
+  text-align: center;
+  list-style-type: none;
+}
+p{
+  color: white;
+}
+.desc{
+  list-style-type: circle;
+  text-align: left;
+  font-size: 13px;
+}
