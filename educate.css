@@ -47,7 +47,10 @@ ul{
 p{
   color: white;
   margin: auto;
-  width: 800px;
+  width: 400px;
+  text-align: center;
+    font-size: 12px;
+
 }
 .desc{
   list-style-type: circle;
